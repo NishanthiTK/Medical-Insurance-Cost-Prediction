@@ -102,6 +102,7 @@ if submit:
     prediction = model.predict(input_df)[0]
 
     st.success("Prediction Completed!")
+    st.subheader(f"Hello, {name}! 👋")
 
     st.subheader("Estimated Insurance Charges")
 
