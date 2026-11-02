@@ -112,7 +112,8 @@ if submit:
     )
 
     st.info(
-        "This is an estimated prediction, not an actual insurance quotation."
+         f"Dear {name}, this is your estimated insurance cost, "
+    "not an actual insurance quotation."
     )
 # Load external CSS file
 css_path = Path(__file__).parent / "style.css"
