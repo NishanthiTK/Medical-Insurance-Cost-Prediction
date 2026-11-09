@@ -107,9 +107,9 @@ if submit:
     st.subheader("Estimated Insurance Charges")
 
     st.metric(
-        label="Predicted Cost",
-        value=f"${prediction:,.2f}"
-    )
+    "Estimated Insurance Charges",
+    f"₹{prediction:,.2f}"
+)
 
     st.info(
          f"Dear {name}, this is your estimated insurance cost, "
